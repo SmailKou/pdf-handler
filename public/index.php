@@ -1,10 +1,11 @@
 <?php declare(strict_types=1);
 
-use PdfHandler\Kernel;
+use Dompdf\Dompdf;
+use PdfHandler\PdfGenerator;
 
-require_once __DIR__ . '../vendor/autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-$kernel = new Kernel();
+$dompdf = new Dompdf();
+$pdfGenerator = new PdfGenerator($dompdf);
 
-$name = 'random.pdf';
-$kernel->generatePdf($name);
+$pdfGenerator->generatePdf();
