@@ -1,0 +1,4 @@
+root = true
+
+[index.php]
+charset = utf-8
