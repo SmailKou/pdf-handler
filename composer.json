@@ -3,7 +3,8 @@
     "description": "A custom package/module to generate pdf files using dompdf library",
     "type": "package",
     "require": {
-        "php": "^7.4"
+        "php": "^7.4",
+        "dompdf/dompdf": "^1.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"

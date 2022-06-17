@@ -2,7 +2,10 @@
 
 namespace PdfHandler;
 
-class Kernel
+final class Kernel implements KernelInterface
 {
-    
+    public static function generatePdf(string $name, $type = null): void
+    {
+
+    }
 }
