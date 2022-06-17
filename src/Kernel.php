@@ -2,7 +2,7 @@
 
 namespace PdfHandler;
 
-class Noyau
+class Kernel
 {
     
 }
