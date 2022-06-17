@@ -1,0 +1,9 @@
+@page teacher {
+    size: A4 portrait;
+    margin: 2cm;
+}
+
+.teacherPage {
+    page: teacher;
+    page-break-after: always;
+}
